@@ -1,14 +1,24 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:weight_tracker/app/constants/My%20Widgets/dialog_boxes.dart';
 import 'package:weight_tracker/app/routes/app_pages.dart';
 import 'package:weight_tracker/main.dart';
 
-class AuthController extends GetxController {
+final showPassProvider = StateProvider<bool>((ref) {
+  return false;
+});
+
+final isLoginProvider = StateProvider<bool>((ref) {
+  return true;
+});
+
+final authConProvider = ChangeNotifierProvider((ref) => AuthController());
+
+class AuthController extends ChangeNotifier {
   final auth = FirebaseAuth.instance;
-  RxBool isShowPassword = false.obs;
-  RxBool isLoginForm = true.obs;
+
   var emailTextController = TextEditingController();
   var passwordTextController = TextEditingController();
 
@@ -20,8 +30,7 @@ class AuthController extends GetxController {
           password: passwordTextController.text);
       box.write('userEmail', user.user?.email);
       Navigator.of(Get.context!).pop();
-      Get.toNamed(Routes.HOME);
-      print(user);
+      Get.offAllNamed(Routes.HOME);
     } on FirebaseAuthException catch (e) {
       if (e.code == 'weak-password') {
         Navigator.of(Get.context!).pop();
@@ -47,8 +56,7 @@ class AuthController extends GetxController {
           password: passwordTextController.text);
       box.write('userEmail', user.user?.email);
       Navigator.of(Get.context!).pop();
-      Get.toNamed(Routes.HOME);
-      print(user);
+      Get.offAllNamed(Routes.HOME);
     } on FirebaseAuthException catch (e) {
       if (e.code == 'user-not-found') {
         Navigator.of(Get.context!).pop();

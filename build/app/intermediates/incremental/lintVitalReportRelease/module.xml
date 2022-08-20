@@ -1,11 +1,11 @@
 <lint-module
     format="1"
-    dir="/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app"
+    dir="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app"
     name=":app"
     type="APP"
     maven="android:app:"
     gradle="7.1.2"
-    buildFolder="/Users/hazratbilal/Documents/GitHub/weight_tracker/build/app"
+    buildFolder="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/app"
     bootClassPath="/Users/hazratbilal/Library/Android/sdk/platforms/android-31/android.jar:/Users/hazratbilal/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
     javaSourceLevel="1.8"
     compileTarget="android-31">

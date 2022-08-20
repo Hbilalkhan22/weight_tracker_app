@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml
+8-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml
+9-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->[com.google.firebase:firebase-auth:21.0.6] /Users/hazratbilal/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
@@ -19,29 +19,29 @@
 13
 14    <application
 15        android:name="android.app.Application"
-15-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:5:9-42
+15-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:5:9-42
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 16-->[androidx.core:core:1.6.0] /Users/hazratbilal/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 17        android:icon="@mipmap/ic_launcher"
-17-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:6:9-43
+17-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:6:9-43
 18        android:label="weight_tracker" >
-18-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:4:9-39
+18-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:4:9-39
 19        <activity
-19-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:7:9-27:20
+19-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:7:9-27:20
 20            android:name="com.weight.tracker.app.weight_tracker.MainActivity"
-20-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:8:13-41
+20-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:8:13-41
 21            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-21-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:12:13-163
+21-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:12:13-163
 22            android:exported="true"
-22-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:9:13-36
+22-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:9:13-36
 23            android:hardwareAccelerated="true"
-23-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:13:13-47
+23-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:13:13-47
 24            android:launchMode="singleTop"
-24-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:10:13-43
+24-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:10:13-43
 25            android:theme="@style/LaunchTheme"
-25-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:11:13-47
+25-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:11:13-47
 26            android:windowSoftInputMode="adjustResize" >
-26-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:14:13-55
+26-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:14:13-55
 27
 28            <!--
 29                 Specifies an Android theme to apply to this Activity as soon as
@@ -50,21 +50,21 @@
 32                 to determine the Window background behind the Flutter UI.
 33            -->
 34            <meta-data
-34-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:19:13-22:17
+34-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:19:13-22:17
 35                android:name="io.flutter.embedding.android.NormalTheme"
-35-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:20:15-70
+35-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:20:15-70
 36                android:resource="@style/NormalTheme" />
-36-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:21:15-52
+36-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:21:15-52
 37
 38            <intent-filter>
-38-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:23:13-26:29
+38-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:23:13-26:29
 39                <action android:name="android.intent.action.MAIN" />
-39-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:24:17-68
-39-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:24:25-66
+39-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:24:17-68
+39-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:24:25-66
 40
 41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:25:17-76
-41-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:25:27-74
+41-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:25:17-76
+41-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:25:27-74
 42            </intent-filter>
 43        </activity>
 44        <!--
@@ -72,38 +72,38 @@
 46             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 47        -->
 48        <meta-data
-48-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:30:9-32:33
+48-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:30:9-32:33
 49            android:name="flutterEmbedding"
-49-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:31:13-44
+49-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:31:13-44
 50            android:value="2" />
-50-->/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/AndroidManifest.xml:32:13-30
+50-->/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/AndroidManifest.xml:32:13-30
 51
 52        <service
-52-->[:firebase_auth] /Users/hazratbilal/Documents/GitHub/weight_tracker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+52-->[:firebase_auth] /Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
 53            android:name="com.google.firebase.components.ComponentDiscoveryService"
-53-->[:firebase_auth] /Users/hazratbilal/Documents/GitHub/weight_tracker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+53-->[:firebase_auth] /Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
 54            android:directBootAware="true"
 54-->[com.google.firebase:firebase-common:20.1.1] /Users/hazratbilal/.gradle/caches/transforms-3/60cb43b41827ac5833e6ffb9297cb895/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
 55            android:exported="false" >
 55-->[com.google.firebase:firebase-auth:21.0.6] /Users/hazratbilal/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:66:13-37
 56            <meta-data
-56-->[:firebase_auth] /Users/hazratbilal/Documents/GitHub/weight_tracker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+56-->[:firebase_auth] /Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 57                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-57-->[:firebase_auth] /Users/hazratbilal/Documents/GitHub/weight_tracker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+57-->[:firebase_auth] /Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
 58                android:value="com.google.firebase.components.ComponentRegistrar" />
-58-->[:firebase_auth] /Users/hazratbilal/Documents/GitHub/weight_tracker/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+58-->[:firebase_auth] /Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 59            <meta-data
-59-->[:cloud_firestore] /Users/hazratbilal/Documents/GitHub/weight_tracker/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+59-->[:cloud_firestore] /Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 60                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-60-->[:cloud_firestore] /Users/hazratbilal/Documents/GitHub/weight_tracker/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+60-->[:cloud_firestore] /Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
 61                android:value="com.google.firebase.components.ComponentRegistrar" />
-61-->[:cloud_firestore] /Users/hazratbilal/Documents/GitHub/weight_tracker/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+61-->[:cloud_firestore] /Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 62            <meta-data
-62-->[:firebase_core] /Users/hazratbilal/Documents/GitHub/weight_tracker/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+62-->[:firebase_core] /Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 63                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-63-->[:firebase_core] /Users/hazratbilal/Documents/GitHub/weight_tracker/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+63-->[:firebase_core] /Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
 64                android:value="com.google.firebase.components.ComponentRegistrar" />
-64-->[:firebase_core] /Users/hazratbilal/Documents/GitHub/weight_tracker/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+64-->[:firebase_core] /Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 65            <meta-data
 65-->[com.google.firebase:firebase-auth:21.0.6] /Users/hazratbilal/.gradle/caches/transforms-3/311ba45f86ccb0360024e645e9d990d4/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:67:13-69:85
 66                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"

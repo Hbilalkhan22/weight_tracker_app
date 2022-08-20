@@ -1,4 +1,4 @@
-#Fri Aug 12 09:33:48 PDT 2022
-base.0=/Users/hazratbilal/Documents/GitHub/weight_tracker/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+#Sat Aug 20 14:26:57 PDT 2022
+base.0=/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

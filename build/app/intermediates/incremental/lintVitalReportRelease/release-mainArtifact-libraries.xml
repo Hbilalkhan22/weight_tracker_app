@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/Users/hazratbilal/Documents/GitHub/weight_tracker/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/Users/hazratbilal/Documents/GitHub/weight_tracker/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/Users/hazratbilal/Documents/GitHub/weight_tracker/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
-      name="/Users/hazratbilal/Documents/GitHub/weight_tracker/android@@:firebase_auth::release"
-      jars="/Users/hazratbilal/Documents/GitHub/weight_tracker/build/firebase_auth/.transforms/96403bd37c79b88718e7c7afdc1f5537/transformed/out/jars/classes.jar"
+      name="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android@@:firebase_auth::release"
+      jars="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/firebase_auth/.transforms/2ea7a5aac202cbde7a736ec7c8424520/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebase.auth:firebase_auth:unspecified"
-      folder="/Users/hazratbilal/Documents/GitHub/weight_tracker/build/firebase_auth/.transforms/96403bd37c79b88718e7c7afdc1f5537/transformed/out"
+      folder="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/firebase_auth/.transforms/2ea7a5aac202cbde7a736ec7c8424520/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/hazratbilal/Documents/GitHub/weight_tracker/android@@:cloud_firestore::release"
-      jars="/Users/hazratbilal/Documents/GitHub/weight_tracker/build/cloud_firestore/.transforms/55153cb408543085fb65095cff08d801/transformed/out/jars/classes.jar"
+      name="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android@@:cloud_firestore::release"
+      jars="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/cloud_firestore/.transforms/e76b16721629d60ca56d3275f128c52e/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebase.cloudfirestore:cloud_firestore:unspecified"
-      folder="/Users/hazratbilal/Documents/GitHub/weight_tracker/build/cloud_firestore/.transforms/55153cb408543085fb65095cff08d801/transformed/out"
+      folder="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/cloud_firestore/.transforms/e76b16721629d60ca56d3275f128c52e/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/hazratbilal/Documents/GitHub/weight_tracker/android@@:firebase_core::release"
-      jars="/Users/hazratbilal/Documents/GitHub/weight_tracker/build/firebase_core/.transforms/cc92f143e09ac456018a4da1a0dc8bd8/transformed/out/jars/classes.jar"
+      name="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android@@:firebase_core::release"
+      jars="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/firebase_core/.transforms/159092ea604b346fe209858d4f205b5f/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebase.core:firebase_core:unspecified"
-      folder="/Users/hazratbilal/Documents/GitHub/weight_tracker/build/firebase_core/.transforms/cc92f143e09ac456018a4da1a0dc8bd8/transformed/out"
+      folder="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/firebase_core/.transforms/159092ea604b346fe209858d4f205b5f/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -43,10 +43,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/hazratbilal/Documents/GitHub/weight_tracker/android@@:path_provider_android::release"
-      jars="/Users/hazratbilal/Documents/GitHub/weight_tracker/build/path_provider_android/.transforms/1ba6353fc2423bc613c0b8fda56f155c/transformed/out/jars/classes.jar"
+      name="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android@@:path_provider_android::release"
+      jars="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/path_provider_android/.transforms/aebabd06107efb010d7530b7c8bda7df/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.pathprovider:path_provider_android:unspecified"
-      folder="/Users/hazratbilal/Documents/GitHub/weight_tracker/build/path_provider_android/.transforms/1ba6353fc2423bc613c0b8fda56f155c/transformed/out"
+      folder="/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/path_provider_android/.transforms/aebabd06107efb010d7530b7c8bda7df/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

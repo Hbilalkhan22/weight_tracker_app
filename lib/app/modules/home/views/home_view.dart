@@ -3,7 +3,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
-import 'package:get/get.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:weight_tracker/app/constants/colors.dart';
 import 'package:weight_tracker/app/constants/styles.dart';
@@ -11,16 +11,16 @@ import 'package:weight_tracker/app/modules/home/Model/weight_model.dart';
 
 import '../controllers/home_controller.dart';
 
-class HomeView extends GetView<HomeController> {
-  HomeView({Key? key}) : super(key: key);
-  var homeCon = Get.find<HomeController>();
+class HomeView extends ConsumerWidget {
+  const HomeView({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final homeProvider = ref.watch(homeConProvider);
     return Scaffold(
         backgroundColor: MyColors.kScaffoldClr,
-        appBar: appBar(),
-        body: weightStream(),
+        appBar: appBar(homeProvider: homeProvider),
+        body: weightStream(homeProvider: homeProvider),
         floatingActionButton: FloatingActionButton(
           backgroundColor: MyColors.kBlackClr,
           elevation: 8,
@@ -29,14 +29,14 @@ class HomeView extends GetView<HomeController> {
             color: MyColors.kWhiteClr,
           ),
           onPressed: () {
-            homeCon.dialog();
+            homeProvider.dialog();
           },
         ));
   }
 
-  StreamBuilder<QuerySnapshot<Object?>> weightStream() {
+  StreamBuilder<QuerySnapshot<Object?>> weightStream({var homeProvider}) {
     return StreamBuilder<QuerySnapshot>(
-        stream: homeCon.weightStreams,
+        stream: homeProvider.weightStreams,
         builder: (context, snapshot) {
           if (snapshot.hasError) {
             return const Text('Something went wrong');
@@ -58,7 +58,8 @@ class HomeView extends GetView<HomeController> {
                       child: listCard(
                           weight: data.weight,
                           date: data.date,
-                          docID: document.id));
+                          docID: document.id,
+                          homeProvider: homeProvider));
                 })
                 .toList()
                 .cast(),
@@ -66,7 +67,7 @@ class HomeView extends GetView<HomeController> {
         });
   }
 
-  AppBar appBar() {
+  AppBar appBar({var homeProvider}) {
     return AppBar(
       backgroundColor: MyColors.kGreyClr,
       elevation: 0,
@@ -82,7 +83,7 @@ class HomeView extends GetView<HomeController> {
             padding: const EdgeInsets.only(right: 20),
             child: InkWell(
               onTap: () {
-                homeCon.logoutFirebase();
+                homeProvider.logoutFirebase();
               },
               child: Text(
                 'Logout',
@@ -96,7 +97,8 @@ class HomeView extends GetView<HomeController> {
     );
   }
 
-  Padding listCard({String? weight, String? date, var docID}) {
+  Padding listCard(
+      {String? weight, String? date, var docID, var homeProvider}) {
     final df = DateFormat('dd-MM-yyyy hh:mm a');
     int myvalue = int.parse(date!);
     var formateDate = df.format(DateTime.fromMillisecondsSinceEpoch(myvalue));
@@ -145,7 +147,7 @@ class HomeView extends GetView<HomeController> {
                   children: [
                     InkWell(
                       onTap: () {
-                        homeCon.delWeightFirebase(docId: docID);
+                        homeProvider.delWeightFirebase(docId: docID);
                       },
                       child: const Icon(
                         Icons.delete,
@@ -158,7 +160,7 @@ class HomeView extends GetView<HomeController> {
                     ),
                     InkWell(
                       onTap: () {
-                        homeCon.dialog(
+                        homeProvider.dialog(
                             isUpdate: true, docId: docID, weight: weight);
                       },
                       child: Icon(

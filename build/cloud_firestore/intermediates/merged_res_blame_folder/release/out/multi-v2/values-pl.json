@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hazratbilal/Documents/GitHub/weight_tracker/build/cloud_firestore/intermediates/merged_res/release/values-pl/values-pl.xml",
+            "outputFile": "/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/cloud_firestore/intermediates/incremental/mergeReleaseResources/merged.dir/values-pl/values-pl.xml",
             "map": [
                 {
                     "source": "/Users/hazratbilal/.gradle/caches/transforms-3/f0589360d9c02b2f33aa86e62a9e0782/transformed/jetified-play-services-basement-18.0.0/res/values-pl/values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/Users/hazratbilal/Documents/GitHub/weight_tracker/build/cloud_firestore/intermediates/incremental/mergeReleaseResources/merged.dir/values-pl/values-pl.xml",
+            "outputFile": "/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/cloud_firestore/intermediates/merged_res/release/values-pl/values-pl.xml",
             "map": [
                 {
                     "source": "/Users/hazratbilal/.gradle/caches/transforms-3/f0589360d9c02b2f33aa86e62a9e0782/transformed/jetified-play-services-basement-18.0.0/res/values-pl/values.xml",

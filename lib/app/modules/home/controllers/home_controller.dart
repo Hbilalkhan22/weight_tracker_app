@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:weight_tracker/app/constants/My%20Widgets/my_text_field.dart';
 import 'package:weight_tracker/app/constants/colors.dart';
 import 'package:weight_tracker/app/constants/styles.dart';
@@ -9,16 +10,14 @@ import 'package:weight_tracker/app/modules/home/Model/weight_model.dart';
 import 'package:weight_tracker/app/routes/app_pages.dart';
 import 'package:weight_tracker/main.dart';
 
-class HomeController extends GetxController {
+final homeConProvider = ChangeNotifierProvider((ref) => HomeController());
+
+class HomeController extends ChangeNotifier {
   final _weightKey = GlobalKey<FormState>();
   var weightTextCon = TextEditingController();
   final firestore = FirebaseFirestore.instance;
   WeightModel weightModel = WeightModel();
-  // final Stream<QuerySnapshot> weightStream = firestore
-  //     .collection('weight_recods')
-  //     .where('userEmail == ${box.read('userEmail')}')
-  //     .orderBy('date', descending: true)
-  //     .snapshots();
+
   void delWeightFirebase({var docId}) {
     cofirmDialog(
       docId: docId,

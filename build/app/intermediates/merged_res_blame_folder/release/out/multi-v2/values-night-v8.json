@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hazratbilal/Documents/GitHub/weight_tracker/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/hazratbilal/Documents/GitHub/weight_tracker/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/hazratbilal/Documents/GitHub/weight_tracker/weight_tracker_app/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
